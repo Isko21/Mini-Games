@@ -1,0 +1,404 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0-windows7.0": {
+      "awesome-bootstrap-checkbox/0.3.4.1": {
+        "type": "package"
+      },
+      "BasicControlsValidation/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/BasicControlsValidation.dll": {}
+        },
+        "runtime": {
+          "lib/net45/BasicControlsValidation.dll": {}
+        }
+      },
+      "Bunifu.UI.WinForms/2.2.1-Beta": {
+        "type": "package",
+        "compile": {
+          "lib/Bunifu.Licensing.dll": {},
+          "lib/Bunifu.UI.WinForms.1.5.3.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuButton.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuCheckBox.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuCircleProgress.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuColorTransition.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuDataGridView.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuDatePicker.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuDropdown.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuFormDock.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuGauge.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuGradientPanel.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuImageButton.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuLabel.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuPages.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuPictureBox.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuProgressBar.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuRadioButton.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuRating.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuScrollBar.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuSeparator.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuShadowPanel.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuSlider.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuTextbox.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuToggleSwitch.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuToolTip.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuTransition.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuUserControl.dll": {},
+          "lib/Bunifu.UI.WinForms.Deprecated.dll": {}
+        },
+        "runtime": {
+          "lib/Bunifu.Licensing.dll": {},
+          "lib/Bunifu.UI.WinForms.1.5.3.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuButton.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuCheckBox.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuCircleProgress.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuColorTransition.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuDataGridView.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuDatePicker.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuDropdown.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuFormDock.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuGauge.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuGradientPanel.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuImageButton.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuLabel.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuPages.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuPictureBox.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuProgressBar.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuRadioButton.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuRating.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuScrollBar.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuSeparator.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuShadowPanel.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuSlider.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuTextbox.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuToggleSwitch.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuToolTip.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuTransition.dll": {},
+          "lib/Bunifu.UI.WinForms.BunifuUserControl.dll": {},
+          "lib/Bunifu.UI.WinForms.Deprecated.dll": {}
+        }
+      },
+      "CircularProgressBar/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "WinFormAnimation": "1.3.0"
+        },
+        "compile": {
+          "lib/net35-Client/CircularProgressBar.dll": {}
+        },
+        "runtime": {
+          "lib/net35-Client/CircularProgressBar.dll": {}
+        }
+      },
+      "WinFormAnimation/1.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net35-Client/WinFormAnimation.dll": {}
+        },
+        "runtime": {
+          "lib/net35-Client/WinFormAnimation.dll": {}
+        }
+      },
+      "Xamarin.Forms.InputKit/3.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.InputKit.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.InputKit.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "awesome-bootstrap-checkbox/0.3.4.1": {
+      "sha512": "q71wfn30CCtqFLuTxJO5+xDYguhgru1+HQftgaV7YwWr+OEPPtamQTOWgty8txN2UmIofVxASi6ZAJhJQ/tJiQ==",
+      "type": "package",
+      "path": "awesome-bootstrap-checkbox/0.3.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "awesome-bootstrap-checkbox.0.3.4.1.nupkg.sha512",
+        "awesome-bootstrap-checkbox.nuspec",
+        "content/content/awesome-bootstrap-checkbox.css",
+        "content/content/awesome-bootstrap-checkbox.less",
+        "content/content/awesome-bootstrap-checkbox.scss"
+      ]
+    },
+    "BasicControlsValidation/2.1.0": {
+      "sha512": "ABzKhbjxW+yKOBkMjlHPQWhWgCM9a3mN7c+81hIMPfa+LBWEbTZlVpBRUaqDPO24d99f2TdgA2fa/mP2Ui//BA==",
+      "type": "package",
+      "path": "basiccontrolsvalidation/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "basiccontrolsvalidation.2.1.0.nupkg.sha512",
+        "basiccontrolsvalidation.nuspec",
+        "lib/net45/BasicControlsValidation.dll",
+        "lib/net45/BasicControlsValidation.xml"
+      ]
+    },
+    "Bunifu.UI.WinForms/2.2.1-Beta": {
+      "sha512": "PlVxm4ucCpcqhebHacFq1tNQJ2YCLg9UH3b4NZs0GAzLhdLhtS9r4APFONFOtCpwYc0bCR93J+LjwgDgozM2Eg==",
+      "type": "package",
+      "path": "bunifu.ui.winforms/2.2.1-beta",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bunifu.ui.winforms.2.2.1-beta.nupkg.sha512",
+        "bunifu.ui.winforms.nuspec",
+        "lib/Assets/CHANGELOG.txt",
+        "lib/Assets/Icon.png",
+        "lib/Assets/LICENSE.txt",
+        "lib/Bunifu.Licensing.dll",
+        "lib/Bunifu.UI.WinForms.1.5.3.dll",
+        "lib/Bunifu.UI.WinForms.1.5.3.xml",
+        "lib/Bunifu.UI.WinForms.BunifuButton.dll",
+        "lib/Bunifu.UI.WinForms.BunifuButton.xml",
+        "lib/Bunifu.UI.WinForms.BunifuCheckBox.dll",
+        "lib/Bunifu.UI.WinForms.BunifuCheckBox.xml",
+        "lib/Bunifu.UI.WinForms.BunifuCircleProgress.dll",
+        "lib/Bunifu.UI.WinForms.BunifuCircleProgress.xml",
+        "lib/Bunifu.UI.WinForms.BunifuColorTransition.dll",
+        "lib/Bunifu.UI.WinForms.BunifuColorTransition.xml",
+        "lib/Bunifu.UI.WinForms.BunifuDataGridView.dll",
+        "lib/Bunifu.UI.WinForms.BunifuDataGridView.xml",
+        "lib/Bunifu.UI.WinForms.BunifuDatePicker.dll",
+        "lib/Bunifu.UI.WinForms.BunifuDatePicker.xml",
+        "lib/Bunifu.UI.WinForms.BunifuDropdown.dll",
+        "lib/Bunifu.UI.WinForms.BunifuDropdown.xml",
+        "lib/Bunifu.UI.WinForms.BunifuFormDock.dll",
+        "lib/Bunifu.UI.WinForms.BunifuFormDock.xml",
+        "lib/Bunifu.UI.WinForms.BunifuGauge.dll",
+        "lib/Bunifu.UI.WinForms.BunifuGauge.xml",
+        "lib/Bunifu.UI.WinForms.BunifuGradientPanel.dll",
+        "lib/Bunifu.UI.WinForms.BunifuGradientPanel.xml",
+        "lib/Bunifu.UI.WinForms.BunifuImageButton.dll",
+        "lib/Bunifu.UI.WinForms.BunifuImageButton.xml",
+        "lib/Bunifu.UI.WinForms.BunifuLabel.dll",
+        "lib/Bunifu.UI.WinForms.BunifuLabel.xml",
+        "lib/Bunifu.UI.WinForms.BunifuPages.dll",
+        "lib/Bunifu.UI.WinForms.BunifuPages.xml",
+        "lib/Bunifu.UI.WinForms.BunifuPictureBox.dll",
+        "lib/Bunifu.UI.WinForms.BunifuPictureBox.xml",
+        "lib/Bunifu.UI.WinForms.BunifuProgressBar.dll",
+        "lib/Bunifu.UI.WinForms.BunifuProgressBar.xml",
+        "lib/Bunifu.UI.WinForms.BunifuRadioButton.dll",
+        "lib/Bunifu.UI.WinForms.BunifuRadioButton.xml",
+        "lib/Bunifu.UI.WinForms.BunifuRating.dll",
+        "lib/Bunifu.UI.WinForms.BunifuRating.xml",
+        "lib/Bunifu.UI.WinForms.BunifuScrollBar.dll",
+        "lib/Bunifu.UI.WinForms.BunifuScrollBar.xml",
+        "lib/Bunifu.UI.WinForms.BunifuSeparator.dll",
+        "lib/Bunifu.UI.WinForms.BunifuSeparator.xml",
+        "lib/Bunifu.UI.WinForms.BunifuShadowPanel.dll",
+        "lib/Bunifu.UI.WinForms.BunifuShadowPanel.xml",
+        "lib/Bunifu.UI.WinForms.BunifuSlider.dll",
+        "lib/Bunifu.UI.WinForms.BunifuSlider.xml",
+        "lib/Bunifu.UI.WinForms.BunifuTextBox.xml",
+        "lib/Bunifu.UI.WinForms.BunifuTextbox.dll",
+        "lib/Bunifu.UI.WinForms.BunifuToggleSwitch.dll",
+        "lib/Bunifu.UI.WinForms.BunifuToggleSwitch.xml",
+        "lib/Bunifu.UI.WinForms.BunifuToolTip.dll",
+        "lib/Bunifu.UI.WinForms.BunifuToolTip.xml",
+        "lib/Bunifu.UI.WinForms.BunifuTransition.dll",
+        "lib/Bunifu.UI.WinForms.BunifuTransition.xml",
+        "lib/Bunifu.UI.WinForms.BunifuUserControl.dll",
+        "lib/Bunifu.UI.WinForms.BunifuUserControl.xml",
+        "lib/Bunifu.UI.WinForms.Deprecated.dll",
+        "lib/Utilities/bdr.exe"
+      ]
+    },
+    "CircularProgressBar/2.2.0": {
+      "sha512": "0GtDQBwuE7ISobEKgdoAxcOSGc8hFV6mrAT1ahBz3WG6VO0gANX5nnl+vcwYeEiHlR0Y61kKC8DNaow2mc7q3g==",
+      "type": "package",
+      "path": "circularprogressbar/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "circularprogressbar.2.2.0.nupkg.sha512",
+        "circularprogressbar.nuspec",
+        "lib/net35-Client/CircularProgressBar.dll",
+        "lib/net35-Client/CircularProgressBar.xml",
+        "readme.txt"
+      ]
+    },
+    "WinFormAnimation/1.3.0": {
+      "sha512": "CXgMTcaBLBUYsE6dPkO0AJ49/1yyzK20S10lMpOXnci2A+vtYPuZttvZ5B76KSlAB+fRpHM36IEnhamty4J1MQ==",
+      "type": "package",
+      "path": "winformanimation/1.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net35-Client/WinFormAnimation.dll",
+        "lib/net35-Client/WinFormAnimation.xml",
+        "readme.txt",
+        "winformanimation.1.3.0.nupkg.sha512",
+        "winformanimation.nuspec"
+      ]
+    },
+    "Xamarin.Forms.InputKit/3.5.0": {
+      "sha512": "3UZL0hCsVN/Oay0TUNwnLZ9nT5g0m/wcks95HB2/VkUuZG5QKkveBpW23eQyf3jXA5XSJtOa0yFKFfFm8k89dw==",
+      "type": "package",
+      "path": "xamarin.forms.inputkit/3.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/monoandroid10.0/Plugin.InputKit.dll",
+        "lib/monoandroid10.0/Plugin.InputKit.xml",
+        "lib/monoandroid90/Plugin.InputKit.dll",
+        "lib/monoandroid90/Plugin.InputKit.xml",
+        "lib/netstandard1.0/Plugin.InputKit.dll",
+        "lib/netstandard1.0/Plugin.InputKit.xml",
+        "lib/netstandard2.0/Plugin.InputKit.dll",
+        "lib/netstandard2.0/Plugin.InputKit.xml",
+        "lib/xamarinios10/Plugin.InputKit.dll",
+        "lib/xamarinios10/Plugin.InputKit.xml",
+        "xamarin.forms.inputkit.3.5.0.nupkg.sha512",
+        "xamarin.forms.inputkit.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0-windows7.0": [
+      "BasicControlsValidation >= 2.1.0",
+      "Bunifu.UI.WinForms >= 2.2.1-Beta",
+      "CircularProgressBar >= 2.2.0",
+      "Xamarin.Forms.InputKit >= 3.5.0",
+      "awesome-bootstrap-checkbox >= 0.3.4.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Self-Study\\Programming\\C#\\My projects\\Projects from University\\BigBanTheory_Project2\\BigBanTheory_Project2\\BigBanTheory_Project2.csproj",
+      "projectName": "BigBanTheory_Project2",
+      "projectPath": "D:\\Self-Study\\Programming\\C#\\My projects\\Projects from University\\BigBanTheory_Project2\\BigBanTheory_Project2\\BigBanTheory_Project2.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "D:\\Self-Study\\Programming\\C#\\My projects\\Projects from University\\BigBanTheory_Project2\\BigBanTheory_Project2\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0-windows7.0": {
+        "targetAlias": "net5.0-windows",
+        "dependencies": {
+          "BasicControlsValidation": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          },
+          "Bunifu.UI.WinForms": {
+            "target": "Package",
+            "version": "[2.2.1-Beta, )"
+          },
+          "CircularProgressBar": {
+            "target": "Package",
+            "version": "[2.2.0, )"
+          },
+          "Xamarin.Forms.InputKit": {
+            "target": "Package",
+            "version": "[3.5.0, )"
+          },
+          "awesome-bootstrap-checkbox": {
+            "target": "Package",
+            "version": "[0.3.4.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'BasicControlsValidation 2.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "BasicControlsValidation",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Bunifu.UI.WinForms 2.2.1-Beta' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Bunifu.UI.WinForms",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'CircularProgressBar 2.2.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "CircularProgressBar",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'WinFormAnimation 1.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "WinFormAnimation",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    }
+  ]
+}
